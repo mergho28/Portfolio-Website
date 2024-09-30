@@ -1,0 +1,98 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray for subtle background */
+    color: #333333; /* Dark gray text for readability */
+}
+
+/* Container styling */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Clean white background for the content */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Light shadow for subtle depth */
+    border-radius: 8px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #2c3e50; /* Dark blue for a professional look */
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #34495e; /* Slightly lighter blue for contrast */
+    margin-top: 5px;
+}
+
+header p {
+    font-size: 1em;
+    margin-top: 5px;
+    color: #2980b9; /* Muted blue for contact information */
+}
+
+header a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2980b9; /* Muted blue for LinkedIn link */
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* About Me Section */
+#about-me {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #2980b9; /* Muted blue for section underlines */
+    padding-bottom: 10px;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333333; /* Dark gray for body text */
+}
+
+/* Project boxes */
+.project-box {
+    background-color: #f9f9f9; /* Soft off-white for project background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd; /* Light gray for borders */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Very light shadow for subtle depth */
+}
+
+.project-box h3 a {
+    color: #2980b9; /* Muted blue for project links */
+    text-decoration: none;
+}
+
+.project-box h3 a:hover {
+    color: #1abc9c; /* Softer green for hover effect */
+}
+
+.project-box p {
+    font-size: 1em;
+    color: #555555; /* Medium gray for text inside project boxes */
+}
+
+
+

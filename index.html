@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merit Ghodrat's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Merit Ghodrat</h1>
+            <h2>Aspiring Computational Scientist</h2>
+            <p>Contact: <a href="mailto:merit.ghodrat@gmail.com">merit.ghodrat@gmail.com</a></p>
+            <a href="https://www.linkedin.com/in/merit-ghodrat-a69b6325b/" target="_blank">LinkedIn</a>
+        </header>
+
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>
+                I am a current undergraduate student on track to graduate in the Spring of 2027 with a degree in Bioinformatics or a related field. My academic foundation includes data analysis, machine learning, and computational biology. I have developed hands-on expertise in Python, R, TensorFlow, Java, Seurat, Matplotlib, and a wide range of other advanced libraries and frameworks, enabling me to effectively tackle complex computational challenges.
+            </p>
+            <p>
+                My passion lies in utilizing computational tools to address complex biological and data-driven challenges. I aim to integrate life sciences with advanced technology to develop innovative solutions. In addition to bioinformatics, I am also focused on building a career in computational science, exploring opportunities in data science, data engineering, and computational biology. My goal is to apply my expertise to projects that drive meaningful progress at the intersection of technology and the life sciences.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project-box">
+                <h3><a href="https://github.com/mergho28/3D-Protein-Structure-Prediction-from-Amino-Acid-Sequences-Using-Deep-Learning" target="_blank">3D Protein Structure Prediction from Amino Acid Sequences Using Deep Learning</a></h3>
+                <p>
+                    This code demonstrates a deep learning-based approach to predict the 3D structure of a protein using its amino acid sequence. It maps one-letter amino acid codes to their full names and encodes each amino acid as a numeric vector. The neural network model is designed using TensorFlow and consists of multiple dense layers to predict 3D coordinates (x, y, z) for each amino acid in the sequence. After training, the predicted 3D coordinates are visualized using Matplotlib in a 3D plot where each amino acid is represented as a sphere and labeled with its one-letter code.
+                </p>
+                <p>
+                    The code utilizes several libraries: NumPy for numerical data, TensorFlow for the neural network, and Matplotlib for 3D visualization. The model is trained using a mean squared error loss function and the Adam optimizer. The predicted 3D structure includes customizations such as different colors for each amino acid and a line connecting the amino acids, representing the protein's overall structure.
+                </p>
+            </div>
+
+            <div class="project-box">
+                <h3><a href="https://github.com/mergho28/RNA-Seq-Analysis-Project" target="_blank">RNA Single Cell Seq Analysis Project</a></h3>
+                <p>
+                    This Shiny application provides an interactive pipeline for analyzing single-cell RNA sequencing (scRNA-seq) data, leveraging the Seurat package. Users can upload scRNA-seq data in Excel format, and the app processes the data by creating a Seurat object, normalizing it, identifying highly variable features, and scaling the data. It generates visualizations like UMAP and violin plots for quick exploratory analysis.
+                </p>
+            </div>
+
+            <div class="project-box">
+                <h3><a href="https://github.com/mergho28/Machine-Learning-in-Genomic-Variations-and-Disease-Risk-Modeling-" target="_blank">Machine Learning in Genomic Variations and Disease Risk Modeling</a></h3>
+                <p>
+                    This Python program predicts disease outcomes based on genomic data. It uses Tkinter for file selection, pandas for data processing, scikit-learn for normalization, and TensorFlow for building the neural network. The model predicts disease (1 or 0), and Matplotlib is used to visualize predictions. SHAP is used to identify gene variations with the most influence on predictions.
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
